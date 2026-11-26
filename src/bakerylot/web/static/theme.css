@@ -1,0 +1,11 @@
+:root {
+    color-scheme: light;
+    --bg: #faf1de; --background: var(--bg);
+    --surface: #fff9ea; --ink: #3d2b13; --muted: #6b5837;
+    --accent: #885507; --border: #d8c394; --wash: #fae7b4;
+    --rail: #eaddba; --on-rail: #513618; --on-accent: #fffdf8;
+    --error: #a72338;
+    --display: "Courier New","Songti SC",monospace; --type: "Courier New","PingFang SC",monospace;
+    --radius: 0px; --gutter: 28px; --title: 41px;
+    --base: 14px;
+}

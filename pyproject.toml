@@ -1,0 +1,14 @@
+[project]
+name = "bakerylot"
+version = "1.0.0"
+requires-python = ">=3.12"
+description = "烘焙当日减损结算"
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
